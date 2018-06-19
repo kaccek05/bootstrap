@@ -1,0 +1,50 @@
+.project-3 {
+	background: url(../img/computer.jpg) center;
+	background-size: cover;
+}
+.project-1 {
+	background: url(../img/black_and_white_computer.jpg) center;
+	background-size: cover;
+}
+.project-2 {
+	background: url(../img/coding.jpeg) center;
+	background-size: cover;
+}
+.project-1, .project-2, .project-3 {
+	min-height: 400px;
+}
+@media (max-width: 767px) {
+	.project-2 {
+		order: 1;
+	}
+	.project-2-desc {
+		order: 2;
+	}
+}
+.filler-text {
+	margin-top: 20px;
+}
+.badge-custom {
+	margin: 4px;
+}
+.header-main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+	background: #203A45
+}
+.highlighted-text {
+	font-weight: thin;
+	color: green;
+}
+.header-sub-main {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+.text-center {
+	text-align: center;
+}
+.panel-buttons {
+	margin: auto 32%
+}
