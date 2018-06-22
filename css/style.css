@@ -48,3 +48,24 @@
 .panel-buttons {
 	margin: auto 32%
 }
+.content-container {
+	width: 75%;
+	align-self: center;
+}
+label {
+	color: white;
+}
+.contact-left {
+	width: 50%;
+	float: left;
+}
+.contact-right {
+	float: right;
+	color: white;
+	line-height: 15px; 
+	padding-top: 50px;
+}
+.footer {
+	height: 80px;
+	text-align: center;
+}
